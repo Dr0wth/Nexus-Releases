@@ -198,14 +198,3 @@ Nexus is a personal student-built project using publicly available academic info
 
 </div>
 
-## Running the academic calendar crawler
-
-The new resumable SQLite pipeline, commands, data dictionary, tests, and coverage limitations are documented in [docs/CRAWLER.md](docs/CRAWLER.md).
-
-```sh
-.venv/bin/python -m crawlers run --catalog 65 --wait --output data/crawl-report.json
-.venv/bin/python -m crawlers report --catalog 65
-.venv/bin/python -m unittest discover -s tests -v
-```
-
-Normal requests use a two-second interval approved by school administrators, as confirmed by the user on 2026-11-10. Server-requested retry waits and failure backoff still apply. Source discovery and successful course-detail extraction are counted separately; the database is not complete merely because a bounded test run finished. The `catalog_` tables are the new data model; old prototype tables remain preserved.
