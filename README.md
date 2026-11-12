@@ -98,17 +98,51 @@ The first module tackles course and degree planning. Rather than merely displayi
 
 ## Roadmap
 
-The order below ONLY describes the upcoming submodule development priorities.
+**CURRENT: Course Planner Sub-module**
 
-**Phase 1 — Course Planner Sub-module**
+## Nexus — Development Roadmap
 
-- [x] Establish a staged McMaster calendar crawler due to no api access.
-- [x] Store,parse,validate programs, course requirements, and course details etc in SQLite3.
-- [ ] Optimize database and build course logics.
-- [ ] Build and link the stacks.
-- [ ] Beta testing irl.
-- [ ] V1.0.0 Release.
+### Phase 1 — Academic Foundation
+- [x] Academic calendar crawler and initial data collection.
+- [ ] Academic database cleanup and validation.
+- [ ] Course Planner logic and academic rule engine.
+- [ ] React/TypeScript Course Planner frontend.
+- [ ] Course search, degree planning, and what-if simulations.
 
+### Phase 2 — Desktop Application
+- [ ] Electron/React application for Windows and macOS.
+- [ ] Unified Nexus dashboard and navigation.
+- [ ] University resource directory and quick-access links.
+- [ ] Desktop settings, preferences, and local data management.
+
+### Phase 3 — Local File System
+- [ ] Finder/Windows Explorer-style academic file manager.
+- [ ] Course-based directory organization.
+- [ ] Local file importing, previews, and PDF viewing.
+- [ ] File metadata database and indexing.
+- [ ] File search, synchronization framework, and change detection.
+- [ ] Integrated notebook and note organization.
+
+### Phase 4 — Embedded Browser & Integrations
+- [ ] Chromium-based embedded browser.
+- [ ] Persistent authentication sessions for supported services.
+- [ ] A2L integration and authorized course-content synchronization.
+- [ ] Automated file downloads and directory organization.
+- [ ] Additional integrations, including Echo360 and Discord.
+
+### Phase 5 — Academic Intelligence & Automation
+- [ ] Unified academic calendar and deadline extraction.
+- [ ] Document parsing and automated workflows.
+- [ ] Iris AI assistant and academic knowledge retrieval.
+- [ ] Local LLM and optional cloud AI support.
+- [ ] Background academic monitoring, reminders, and notifications.
+
+### Phase 6 — Campus Ecosystem
+- [ ] Student, TA, professor, and department communication.
+- [ ] Student- and institution-moderated forums.
+- [ ] Club management and campus communities.
+- [ ] Multi-university support.
+- [ ] Institutional services and administrative integrations.
 
 ---
 
